@@ -6,6 +6,7 @@ Inspired from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Added option to pass custom headers to 'AWSV4SignerAsyncAuth' ([863](https://github.com/opensearch-project/opensearch-py/pull/863))
 - Added sync and async sample that uses `search_after` parameter ([859](https://github.com/opensearch-project/opensearch-py/pull/859))
 ### Updated APIs
+- Updated opensearch-py APIs to reflect [opensearch-api-specification@25c1c67](https://github.com/opensearch-project/opensearch-api-specification/commit/25c1c67d3555999fc0d34dcfbe027d5236f72131)
 ### Changed
 - Small refactor of AWS Signer classes for both sync and async clients ([866](https://github.com/opensearch-project/opensearch-py/pull/866))
 ### Deprecated
